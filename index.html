@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Agency - Start Bootstrap Theme</title>
+    <title>XAI on Biosignals for CDSS</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -46,7 +46,6 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -56,13 +55,13 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a class="page-scroll" href="#abstract">Abstract</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="page-scroll" href="#slides">Slides</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#notebooks">Notebooks</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#team">Team</a>
@@ -81,57 +80,97 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">Welcome To Our Studio!</div>
-                <div class="intro-heading">It's Nice To Meet You</div>
+            	<div class="intro-heading">XAI on Biosignals for CDSS</div>
+                <div class="intro-lead-in">ACM KDD, Sunday 25 August 2024 – Thursday 29 August 2024, Barcelona Spain</div>
                 <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
             </div>
         </div>
     </header>
 
     <!-- Services Section -->
-    <section id="services">
-        <div class="container">
+    <section id="abstract">
+    	<div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Services</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">Abstract</h2>
+                    <h3 class="section-subheading text-muted">Exaplainable AI on Biosignals for Clinical Decision Support.</h3>
                 </div>
             </div>
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">E-Commerce</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Responsive Design</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Web Security</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    
+                                    <h4 class="subheading">Background</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Deep learning has proven effective in several areas, including computer vision, natural language processing, and disease prediction, which can support clinicians in making decisions along the clinical pathway. However, in order to successfully integrate these algorithms into clinical practice, it is important that their decision-making processes are transparent, explainable, and interpretable.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="subheading">Targeted XAI</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Firstly, this tutorial will introduce targeted eXplainable Artificial Intelligence (XAI) methods to address the urgent need for explainability of deep learning in healthcare applications. In particular, it focuses on algorithms for raw biosignals without prior feature extraction that enable medical diagnoses, specifically electrocardiograms (ECG) – stemming from the heart – and electroencephalograms (EEG) representing the electrical activity of the brain.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="subheading">Workflow</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Secondly, participants are provided with a comprehensive workflow that includes both data processing and an introduction to relevant network architectures. Subsequently, various XAI methods are described and it is shown, how the resulting relevance attributions can be visualized on biosignals.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="subheading">Real World Use Case</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Finally, two compelling real-world use cases are presented that demonstrate the effectiveness of XAI in analyzing ECG and EEG signals for disease prediction and sleep classification, respectively. In summary, the tutorial will provide the skills required for gaining insight into the decision process of deep neural networks processing authentic clinical biosignal data.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <h4>Be Part
+                                    <br>Of Our
+                                    <br>Story!</h4>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
+    <section id="slides" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Portfolio</h2>
+                    <h2 class="section-heading">Slides</h2>
                     <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
             </div>
@@ -225,81 +264,38 @@
     </section>
 
     <!-- About Section -->
-    <section id="about">
+    <section id="notebooks">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About</h2>
+                    <h2 class="section-heading">Jupyter Notebooks</h2>
                     <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="timeline">
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>2009-2011</h4>
-                                    <h4 class="subheading">Our Humble Beginnings</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>March 2011</h4>
-                                    <h4 class="subheading">An Agency is Born</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>December 2012</h4>
-                                    <h4 class="subheading">Transition to Full Service</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>July 2014</h4>
-                                    <h4 class="subheading">Phase Two Expansion</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <h4>Be Part
-                                    <br>Of Our
-                                    <br>Story!</h4>
-                            </div>
-                        </li>
-                    </ul>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">E-Commerce</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Responsive Design</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Web Security</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                 </div>
             </div>
         </div>
@@ -311,15 +307,18 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Our Amazing Team</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Kay Garland</h4>
-                        <p class="text-muted">Lead Designer</p>
+                        <img src="img/team/hauschild.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Jun.-Prof. Dr. Anne-Christin Hauschild</h4>
+                        <p class="text-muted">Anne-Christin Hauschild is leading the Clinical Decision Support Systems Group and deputy head of the Department of Medical Informatics at the University Medical Center Göttingen. 
+Her group develops complex AI algorithms, such as tailored Explainable AI methods for biomedical applications increase the causal understanding of decision processes of predictive models.
+She finished her PhD with Prof. Dr. Jan Baumbach at the Max-Planck Institute for Informatics in Saarbrücken in 2016.
+Thereafter, she worked as a Research Fellow at the Princes Margaret Cancer Center and subsequently at the Center for Addiction and Mental Health in Toronto (Ca). 
+In 2019 joined the Bioinformatics group at the Philipps University of Marburg as a junior group leader for Medical Data Science.</p>
                         <ul class="list-inline social-buttons">
                             <li><a href="#"><i class="fa fa-twitter"></i></a>
                             </li>
@@ -332,9 +331,12 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Larry Parker</h4>
-                        <p class="text-muted">Lead Marketer</p>
+                        <img src="img/team/spicher.JPG" class="img-responsive img-circle" alt="">
+                        <h4>Dr. Nicolai Spicher</h4>
+                        <p class="text-muted">Nicolai Spicher is leading the Biosignal Processing Group at University Medical Center Göttingen. 
+His research interests include signal processing and machine learning for cardiovascular and multimodal applications. 
+He is Adcom member of the IEEE Engineering in Medicine and Biology Society (EMBS) and serves as chair of German/Austrian/Swiss EMBS chapter. 
+Dr. Spicher received his Ph.D. degree from the Erwin L. Hahn Institute for MRI and was a postdoc at the the Peter L. Reichertz Institute for Medical Informatics at TU Brauschweig and Hannover Medical School.</p>
                         <ul class="list-inline social-buttons">
                             <li><a href="#"><i class="fa fa-twitter"></i></a>
                             </li>
@@ -347,9 +349,65 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Diana Pertersen</h4>
-                        <p class="text-muted">Lead Developer</p>
+                        <img src="img/team/bender.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Dr. Theresa Bender</h4>
+                        <p class="text-muted">Theresa Bender is a Postdoc at the Department of Medical Informatics at the University Medical Center Göttingen, Germany. 
+She recently received a doctoral degree from the GAUSS Programme in Computer Science, analyzing the trustworthiness of deep learning models for 12-lead ECGs. 
+She received a B.Sc. and consecutive M.Sc. in Applied Informatics with focus on Healthcare Informatics at Georg-August University Göttingen, Germany. 
+As a member of the Biosignal Processing Group she is now focusing on post-hoc explainability for ECG and EEG data.</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/metsch.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Jacqueline Michelle Metsch</h4>
+                        <p class="text-muted">Jacqueline Michelle Metsch is a PhD student at the Department of Medical Informatics at the University Medical Center in Göttingen. 
+She earned her B.Sc. in Mathematics from the Justus-Liebig-University Gießen and her M.Sc. in Data Science from the Philips-University Marburg. 
+As a member of the Clinical Decision Support Systems (CDSS) Group she is working on building trust in AI as CDSS through the use of XAI. </p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/hempel.JPG" class="img-responsive img-circle" alt="">
+                        <h4>Philip Hempel</h4>
+                        <p class="text-muted">Philip Hempel is a PhD student at the Department of Medical Informatics at the University Medical Center in Göttingen. 
+He got his B.Sc and M.Sc in Biology at the Technical-University Braunschweig and has a state examination as paramedic accompanied by 11 years of working experience. 
+In the biosignal processing group he links the performance of AI-ECG models to medical textbook knowledge to facilitate their use in clinical practice.</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/maurer.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Miriam Cindy Maurer</h4>
+                        <p class="text-muted">Miriam Cindy Maurer is a PhD student at the Department of Medical Informatics at the University Medical Center in Göttingen. 
+She earned her B.Sc. in Mathematics and Economics from the Ruprecht-Karls University Heidelberg and her M.Sc. in Applied Statistics from the Georg-August University Göttingen. 
+As a member of the Clinical Decision Support Systems (CDSS) Group, she focuses on Graph Neural Networks applied to ECG data, with a special emphasis on XAI.</p>
                         <ul class="list-inline social-buttons">
                             <li><a href="#"><i class="fa fa-twitter"></i></a>
                             </li>
