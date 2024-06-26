@@ -540,6 +540,12 @@
 .fa-twitter-square:before {
   content: "\f081";
 }
+.fa-orcid-square:before {
+  content: "\f08188888";
+}
+.fa-envelope-square:before {
+  content: "\f081888888";
+}
 .fa-facebook-square:before {
   content: "\f082";
 }
@@ -609,6 +615,12 @@
 }
 .fa-twitter:before {
   content: "\f099";
+}
+.fa-orcid:before {
+  content: "\f09988888";
+}
+.fa-envelope:before {
+  content: "\f099888888";
 }
 .fa-facebook:before {
   content: "\f09a";
