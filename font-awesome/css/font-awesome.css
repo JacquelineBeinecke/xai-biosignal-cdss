@@ -546,6 +546,9 @@
 .fa-envelope-square:before {
   content: "\f0e0";
 }
+.fa-newspaper-square:before {
+  content: "\f1ea";
+}
 .fa-facebook-square:before {
   content: "\f082";
 }
@@ -621,6 +624,9 @@
 }
 .fa-envelope:before {
   content: "\f0e0";
+}
+.fa-newspaper:before {
+  content: "\f1ea";
 }
 .fa-facebook:before {
   content: "\f09a";
